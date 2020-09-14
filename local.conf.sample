@@ -1,0 +1,16 @@
+[[local|localrc]]
+FLOATING_RANGE=192.168.56.224/27
+FIXED_RANGE=10.11.12.0/24
+ADMIN_PASSWORD=supersecret
+DATABASE_PASSWORD=$ADMIN_PASSWORD
+RABBIT_PASSWORD=$ADMIN_PASSWORD
+SERVICE_PASSWORD=$ADMIN_PASSWORD
+
+USE_VENV=True
+OSLOMSG_REPO=https://github.com/wafec/oslo.messaging
+OSLOMSG_BRANCH=stable/ussuri
+OSLOSERIALIZATION_REPO=https://github.com/wafec/oslo.serialization
+OSLOSERIALIZATION_BRANCH=stable/ussuri
+LIBS_FROM_GIT=oslo.serialization,oslo.messaging
+
+HOST_IP=192.168.56.51
